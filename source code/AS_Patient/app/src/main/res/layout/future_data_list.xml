@@ -1,0 +1,30 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:id="@+id/f_hos"
+		android:textSize="15sp"
+		android:padding="5dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" />
+	<TextView 
+		android:id="@+id/f_doc"
+		android:textSize="15sp"
+		android:padding="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/f_date"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	<TextView 
+		android:id="@+id/f_time"
+		android:padding="5dp"
+		android:textSize="15sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>

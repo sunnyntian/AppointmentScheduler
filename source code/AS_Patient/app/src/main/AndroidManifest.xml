@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cmu.apointmentscedulerpatient.app" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+    <application
+        android:name="com.cmu.as.socket.PatSocket"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cmu.as.app.app_LogIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_SelectHospital"
+            android:label="@string/title_activity_select_hospital" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_SelectHosManually"
+            android:label="@string/title_activity_select_hos_manually" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_SelectDoc"
+            android:label="@string/title_activity_select_doc" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_SelectDate"
+            android:label="@string/title_activity_select_date" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_PastActivity"
+            android:label="@string/title_activity_past" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_PastDetialActivity"
+            android:label="@string/title_activity_past_detial" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_DocumentActivity"
+            android:label="title_activity_document" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_FutureActivity"
+            android:label="@string/title_activity_future" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_FutureDetailActivity"
+            android:label="@string/title_activity_future_detail" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_RegisterActivity"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.cmu.as.app.app_AlarmActivity" >
+        </activity>
+    </application>
+
+</manifest>
